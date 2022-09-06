@@ -7,21 +7,24 @@
     <link href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<h1>Hello world</h1>
-</body>
-
 <div class="container my-3">
-    <h1> My notes</h1>
+    <h1>Create notes</h1>
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Add a note</h5>
             <div class="form-group">
                 <textarea class="form-control" id="addText" rows="3"></textarea>
             </div>
-            <button class="btn btn-outline-primary"></button>
+            <button class="btn btn-outline-primary" id="addBtn">Add Note</button>
         </div>
     </div>
+    <hr>
+    <h1>Your notes</h1>
+    <hr>
+    <div id="notes" class="row container-fluid"></div>
 </div>
+</body>
+
 <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/main.js"></script>
 </html>
